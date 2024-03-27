@@ -1,7 +1,7 @@
 {
   "compilerOptions": {
-    "target": "es6",
-    "module": "commonjs",
+    "target": "ES2022",
+    "module": "CommonJS",
     "types":["node"],
     "lib": ["dom", "es6", "es2017", "esnext.asynciterable"],
     "sourceMap": true,
@@ -27,5 +27,5 @@
     }
   },
   "exclude": ["node_modules"],
-  "include": ["./**/*.tsx", "./**/*.ts", "src/config/connectDatabase.js"]
+  "include": ["./**/*.tsx", "./**/*.ts", "src/config/connectDatabase.js","src/**/*"]
 }
